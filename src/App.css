@@ -2,3 +2,17 @@
   text-decoration: none !important;
   color: white ;
 }
+.head_container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.heading{
+  width: 40%;
+}
+.image_container{
+  width: 40%;
+}
+img{
+  width: 100%;
+}

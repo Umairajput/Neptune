@@ -9,7 +9,6 @@ import Contact from './Screens/Contact/contact';
 function App() {
   return (
     <>
-
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
