@@ -17,6 +17,7 @@ function App() {
         <Route path="/Service" element={<Service />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+  
     </>
   );
 }
