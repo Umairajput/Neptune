@@ -14,9 +14,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-
+import { Link } from 'react-router-dom';
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Services', 'Contact'];
+const navItems = [<Link to='/' className='nav_list_style'>Home</Link>, <Link to='/About'  className='nav_list_style'>About</Link>, <Link to='/Service' className='nav_list_style'>Service</Link>, <Link to='/Contact' className='nav_list_style'>Contact</Link>];
 
 function Navbar(props) {
     const { window } = props;
