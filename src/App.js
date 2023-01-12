@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Screens/Home/home';
 
 function App() {
   return (
     <>
-    
+      <Home />
     </>
   );
 }
